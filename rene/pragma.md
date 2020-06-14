@@ -2,7 +2,7 @@
 #### Written by Rene on 12 June, 2020
 
 ## A little bit about this blog and why I made it (since it's my first post)
-Welcome to my first post. My goal with this blog is to do a weekly post about something new I learned. Since I have no formal education in computer science and have only been programming for a bit over a year, I decided it was a good idea to start documenting the things I learn in an effort to a) learn it better and b) maybe help someone out too if they find my content useful. Writing about something is a good way to solidify information and doing it transparently is great because I can be accountable to my goal to write weekly.
+Welcome to my first post. My goal with this blog is to do a weekly post about something new I learned. Since I have no formal education in computer science and have only been programming for a bit over a year, I decided it was a good idea to start documenting the things I learn in an effort to retain information better. Writing about something is a good way to solidify information and doing it transparently is great because I can be accountable to my goal to write weekly.
 
 Since this "blog" is open to the public, if I happen to inaccurately represent some information, let me know either by opening an issue or a PR to fix it.
 
