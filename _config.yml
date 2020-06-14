@@ -122,3 +122,4 @@ exclude:
   - Rakefile
   - screenshot.png
   - vendor
+  - README.md
