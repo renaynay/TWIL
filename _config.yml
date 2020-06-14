@@ -93,7 +93,7 @@ text:
     minute_read:    'minute read'
     related_posts:  'Related Posts'
   index:
-    main: 'Blackdog's dev blog'
+    main: "Blackdog's dev blog"
   contact:
     email:    'Email Address'
     content:  'What would you like to say?'
