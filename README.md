@@ -1,4 +1,4 @@
-# This Week I Learned
+# this week i learned
 
 Weekly posts about something new I learned related to software.
 
