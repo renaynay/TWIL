@@ -123,3 +123,4 @@ exclude:
   - screenshot.png
   - vendor
   - README.md
+date_format: "%b %-d, %Y"
