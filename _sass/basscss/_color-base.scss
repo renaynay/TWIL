@@ -2,8 +2,8 @@
 
 body {
   color: $dark-gray;
-  background: rgb(255,249,189);
-  background: linear-gradient(90deg, rgba(255,249,189,1) 0%, rgba(223,242,225,1) 33%, rgba(207,249,255,1) 67%, rgba(250,216,255,1) 100%);
+  background: rgb(254,254,254);
+  background: radial-gradient(circle, rgba(254,254,254,1) 17%, rgba(255,255,235,1) 37%, rgba(208,255,230,1) 56%, rgba(203,243,255,1) 82%, rgba(219,201,250,1) 100%);
 }
 
 a {
