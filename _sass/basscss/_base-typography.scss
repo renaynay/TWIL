@@ -1,7 +1,7 @@
 /* Basscss Base Typography */
 
 body {
-  font-family: $font-family;
+  font-family: "Lucida Console", Monaco, monospace;
   line-height: $line-height;
   font-size: 100%;
 }
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading-font-family;
+  font-family: "Lucida Console", Monaco, monospace;
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   margin-top: 1em;
@@ -36,7 +36,7 @@ ul {
 pre,
 code,
 samp {
-  font-family: $monospace-font-family;
+  font-family: "Lucida Console", Monaco, monospace;
   font-size: inherit;
 }
 
