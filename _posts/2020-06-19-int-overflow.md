@@ -14,7 +14,21 @@ Integer overflows are another concept I've encountered briefly when trying to [i
 An integer overflow occurs when a value does not fit within its allocated memory space. This can occur for a variety of reasons, but an integer overflow should almost always be handled properly since they can cause unexpected or incorrect behavior and can pose serious security risks for a program. Integer overflows are especially risky when dealing with financial technologies like blockchain where the financial consequence is huge if integer overflow occurs and is not properly handled.
 
 ## How is integer overflow handled (in Go)?
-There are a few options when it comes to dealing with integer overflow in Go. One option is to ignore it, since the Go compiler doesn't check for overflow, similarly to C, C++ and Java. This option is extremely unsafe, but it could be the best option for some programs in which integer overflow is highly unlikely. I'm not really sure where that could be the case, but nonetheless, it could exist.
+There are a few options when it comes to dealing with integer overflow in Go. One option is to ignore it since the Go compiler doesn't check for overflow, similarly to C, C++ and Java. The following program will still work despite a clear integer overflow: 
+
+```go
+func main() {
+	var foo uint64 = 18446744073709551615 // Maximum possible value of a 64-bit unsigned integer
+	foo = foo + uint64(4)
+	// outputs 3
+	
+	var bar uint64 = 18446744073709551615
+	bar = bar*2
+	// outputs 18446744073709551614
+}
+```
+
+Neither of the output values is "correct" in the traditional sense of mathematics, but the Go compiler handles overflow in this manner. The option to ignore an integer overflow is extremely unsafe, but it could be the best option for some programs in which integer overflow is highly unlikely. I'm not really sure where that could be the case, but nonetheless, it could exist.
 
 Another option is to use an [overflow library](https://github.com/JohnCGriffin/overflow) or to implement individual overflow checks, like [this](https://stackoverflow.com/questions/33641717/detect-signed-int-overflow-in-go): 
 
