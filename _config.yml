@@ -1,9 +1,9 @@
 remote_theme: johno/pixyll
 
 # Site settings
-title:       this week i learned
+title:       i learned
 author:      Rene Lubov
-description: "quick summary on something i learned this week"
+description: "quick summary on something i learned"
 url:         "http://blog.rene.sh"
 
 # Google services
