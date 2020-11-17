@@ -1,4 +1,4 @@
-# i learned
+# rene's blog 
 
 Sporadic posts about something new I learned related to software.
 
