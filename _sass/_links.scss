@@ -1,21 +1,11 @@
 a {
-  color: #000000;
-  background-image: linear-gradient(to top,
-    rgba(0,0,0,0) 13%,
-    rgba($link-color,.8) 13%,
-    rgba($link-color,.8) 18%,
-    rgba(0,0,0,0) 17%
-  );
-  text-shadow: white 1px 0px 0px, white -1px 0px 0px;
+  color: #e28cdf;
 }
 
 a:hover,
 a:focus,
 a:active {
-  text-decoration: underline;
-  border: 0;
-  color: #000000;;
-  text-shadow: white 1px 0px 0px, white -1px 0px 0px;
+  color: #8c9fff;;
 }
 
 // Correct issues with buttons
